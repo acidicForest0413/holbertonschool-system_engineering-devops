@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# another way to kill Buzz
+
+pkill -SIGKILL -f "7-highlander"
