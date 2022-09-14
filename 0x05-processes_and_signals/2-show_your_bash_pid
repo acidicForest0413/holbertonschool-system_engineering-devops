@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#list bash PID
+
+ps -faux | grep 'bash'
