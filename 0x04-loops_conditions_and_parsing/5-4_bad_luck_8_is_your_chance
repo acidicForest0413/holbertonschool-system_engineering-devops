@@ -2,12 +2,12 @@
 #loops Best School 10 times with some extra if statements
 
 COUNTER=1
-while [ $COUNTER -lt 11 ]
+while [ $COUNTER -lt 9 ]
 do
 	if [ $COUNTER = 4 ]
 	then
 		echo 'bad luck'
-	elif [ $COUNTER = 8 ]
+	elif [ $COUNTER = 7 ]
 	then
 		echo 'good luck'
 	fi
