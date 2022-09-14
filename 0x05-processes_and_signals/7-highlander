@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#more Buzz with some superman mixed in
+
+while true
+do
+	echo "To infinity and beyond"
+	sleep 2
+	trap 'echo "I am invincible!!!"' SIGTERM
+done
