@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #loops Best School 10 times with some extra if statements
 
-COUNTER=0
+COUNTER=1
 while [ $COUNTER -lt 11 ]
 do
 	if [ $COUNTER = 4 ]
