@@ -1,0 +1,10 @@
+When you type https://www.holbertonschool.com in your browser and press Enter, the following happens:
+
+1. Your browser sends a DNS request to the DNS server to resolve the IP address of the domain name www.holbertonschool.com.
+2. The DNS server responds with the IP address of the server hosting the website.
+3. Your browser establishes a TCP connection with the server using the IP address and the default port number for HTTP (port 80) or HTTPS (port 443).
+4. Your browser sends an HTTP request to the server requesting the home page of the website.
+5. The server processes the request and sends an HTTP response back to the browser, which contains the HTML, CSS, JavaScript, and other resources required to display the home page of the website.
+6. Your browser parses the HTML, CSS, and JavaScript code and renders the web page on your screen.
+
+In summary, when you type a URL in your browser, your browser communicates with the server hosting the website to retrieve and render the content of the web page on your screen.
